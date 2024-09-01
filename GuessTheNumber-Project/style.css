@@ -1,0 +1,46 @@
+/* Set basic styling for the entire page */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container to center everything */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Adjust space between elements */
+  }
+
+  /* input button */
+
+  .input-num input {
+    width: 200px;    /* Adjusts the width of the input */
+    height: 40px;    /* Adjusts the height of the input */
+    font-size: 18px; /* Increases the size of the text inside the input */
+    padding: 8px;    /* Adds padding inside the input for more space */
+    border-radius: 5px; /* Adds rounded corners to the input */
+    border: 1px solid #ccc; /* Adds a subtle border */
+    box-sizing: border-box; /* Ensures padding is included in the width and height */
+  }
+  
+  /* Button group styling */
+  .upperBtn {
+    display: flex;
+    gap: 10px; /* Adjust space between buttons */
+  }
+  
+  /* Styling for individual buttons */
+  .btn-1, .btn-2 {
+    background-color: rgb(34, 190, 177);
+    height: 32px;
+    width: 82px;
+    border-radius: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
